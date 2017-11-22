@@ -11,31 +11,31 @@ This APP has great potential. It can be further improved and possible applicatio
 
 ## New Features
 
-1. Feature extraction using ORB ( Oriented FAST and Rotated BRIEF):
+* Feature extraction using ORB ( Oriented FAST and Rotated BRIEF):
 
-a) keypoint of object detected using ORB
+  * keypoint of object detected using ORB
 
-b) keypoint of object described Using ORB
+  * keypoint of object described Using ORB
 
-c) keypoint of scene extracted
+  * keypoint of scene extracted
 
-d) keypoint of scene described
+  * keypoint of scene described
 
-e) matches of object and scene extracted by comapring object keypoint description and scene keypoint description
+  * matches of object and scene extracted by comapring object keypoint description and scene keypoint description
 
 Its theory can be found [here](http://www.willowgarage.com/sites/default/files/orb_final.pdf)
 
-2. Finding the best matching feature given input frame, and draw a bounding box around it:
+* Finding the best matching feature given input frame, and draw a bounding box around it:
 
-a) select best matches
+  * select best matches
 
-b) find matches with lest distance from each other
+  * find matches with lest distance from each other
 
-c) transfer matches to point in color image
+  * transfer matches to point in color image
 
-d) draw rectangle that bound matches
+  * draw rectangle that bound matches
 
-e) create output image
+  * create output image
 
 The implementation of these can be found mainly in:
 ```
@@ -65,4 +65,6 @@ eee508f17_Project2_AndroidAppsWithOpenCV_Final.pdf
 - Hope Yao: ORB (part-1)
 
 
+## Acknowledgement
+The team members would like to thank Seyed Alireza Golestaneh, Lina Karam and the contributors to the online resources and discussions.
 
