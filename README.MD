@@ -14,25 +14,32 @@ This APP has great potential. It can be further improved and possible applicatio
 1. Feature extraction using ORB ( Oriented FAST and Rotated BRIEF):
 
 a) keypoint of object detected using ORB
+
 b) keypoint of object described Using ORB
+
 c) keypoint of scene extracted
+
 d) keypoint of scene described
+
 e) matches of object and scene extracted by comapring object keypoint description and scene keypoint description
-```
-public Mat recognize(Mat aInputFrame)
-```
+
 Its theory can be found [here](http://www.willowgarage.com/sites/default/files/orb_final.pdf)
 
-2. Finding the best matching feature given input frame, and draw a bounding box around it.
+2. Finding the best matching feature given input frame, and draw a bounding box around it:
 
 a) select best matches
+
 b) find matches with lest distance from each other
+
 c) transfer matches to point in color image
+
 d) draw rectangle that bound matches
+
 e) create output image
 
+The implementation of these can be found mainly in:
 ```
-
+public Mat recognize(Mat aInputFrame)
 ```
 
 ## How to Use
@@ -54,7 +61,7 @@ eee508f17_Project2_AndroidAppsWithOpenCV_Final.pdf
 ![acc](../master/assets/sample_output.gif)
 
 ## Team Member Contribution
-- Mohammad Farhadi Bajestani: UI, bounding box (part-2)
+- Mohammad Farhadi Bajestani: UI, bounding box (part-2), code integration
 - Hope Yao: ORB (part-1)
 
 
