@@ -6,7 +6,7 @@ This  android APP is developed for the general purpose of object detection and t
 
 
 ## Applications
-This APP has great potential. It can be further improved and possible applications include but not limited to: camera fixiation, security survilliance and even autonomous driving. 
+This APP has great potential. It can be further improved and its possible applications include but not limited to: camera fixiation, security survilliance and even autonomous driving. 
 
 
 ## New Features
@@ -50,12 +50,11 @@ Steps for reproducing our result includes:
 2. Open Android studio and load the project. Make sure that there is no error message for after building the project.
 3. open "debug mode" on your phone and connect it to the computer
 4. Run the code and select the mobile device to execute the code
-5. run the program
+5. run the the program on android device
 6. find an object click on screen
 7. program start following object
 
-If anything went wrong, a detailed instructions can be found at:
-eee508f17_Project2_AndroidAppsWithOpenCV_Final.pdf
+If anything went wrong, a detailed instructions can be found at [this tutorial](../master/assets/eee508f17_Project2_AndroidAppsWithOpenCV_Final.pdf)
 
 ## Sample Output
 ![acc](../master/assets/sample_output.gif)
